@@ -79,7 +79,7 @@
 .examples__img {
   position: relative;
   overflow: hidden;
-&:hover & {
+&:hover .examples__overlow {
         transform: translate(0, 0);
     }
 }
