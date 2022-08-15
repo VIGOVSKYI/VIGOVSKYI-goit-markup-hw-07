@@ -609,7 +609,7 @@ header {
   position: relative;
   overflow: hidden;
 }
-.examples__img:hover .examples__img {
+.examples__img:hover .examples__overlow {
   transform: translate(0, 0);
 }
 
@@ -641,17 +641,21 @@ header {
 }
 
 .examples__title {
+  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  color: var(--title-color);
   letter-spacing: 0.06em;
+  color: var(--title-color);
 }
 
-.portfolio__text {
+.examples__text {
+  font-style: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
+  color: #757575;
 }
 
 .page-footer {
@@ -677,8 +681,11 @@ header {
   display: flex;
 }
 
-.link .mail {
-  margin-top: 9px;
+.container-address {
+  margin-top: 20px;
+}
+
+.container-address .mail {
   margin-bottom: 9px;
 }
 
@@ -687,9 +694,9 @@ header {
   font-size: 14px;
   line-height: 2;
   color: #ffffff;
+  padding-top: 0;
   margin-top: 0;
   margin-bottom: 9px;
-  padding-top: 0;
 }
 
 .title-footer {
@@ -864,7 +871,7 @@ header {
   background: #ffffff;
   border-radius: 50%;
   background-color: transparent;
-  border: 1px solid #757575;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 .button-close-btn:hover, .button-close-btn:focus {
   fill: var(--brand-color);

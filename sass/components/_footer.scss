@@ -20,9 +20,11 @@
 .container-footer {
   display: flex;
 }
+.container-address {
+  margin-top: 20px;
+}
 
-.link .mail {
-  margin-top: 9px;
+.container-address .mail {
   margin-bottom: 9px;
 }
 
@@ -31,9 +33,9 @@
   font-size: 14px;
   line-height: 2;
   color: #ffffff;
+  padding-top: 0;
   margin-top: 0;
   margin-bottom: 9px;
-  padding-top: 0;
 }
 
 .title-footer {

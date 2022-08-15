@@ -79,7 +79,7 @@
 .examples__img {
   position: relative;
   overflow: hidden;
-&:hover & {
+&:hover .examples__overlow {
         transform: translate(0, 0);
     }
 }
@@ -104,7 +104,7 @@
   color: #ffffff;
 }
 
-.examples__border {
+.examples__border{
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 24px;
@@ -112,18 +112,22 @@
     border: 1px solid #eeeeee;
 }
 
-.examples__title {
+.examples__title{
+  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  color: var(--title-color);
   letter-spacing: 0.06em;
+  color: var(--title-color);
 }
 
-.portfolio__text {
+.examples__text{
+  font-style: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
+  color: #757575;
 }
 
 
